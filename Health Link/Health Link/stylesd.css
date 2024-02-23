@@ -1,0 +1,196 @@
+body {
+
+  background-image: url('lb.png');
+
+  background-size: cover;
+
+  background-position: center;
+
+  font-family: Arial, sans-serif;
+
+  margin: 0;
+
+  padding: 0;
+
+}
+
+ 
+
+.container {
+
+  width: 400px;
+
+  margin: 100px auto;
+
+  padding: 40px;
+
+  background-color: #fff;
+
+  border-radius: 5px;
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+ 
+
+h2 {
+
+  text-align: center;
+
+  margin-bottom: 20px;
+
+  color: #333;
+
+}
+
+ 
+
+.form-group {
+
+  margin-bottom: 20px;
+
+}
+
+ 
+
+label {
+
+  display: block;
+
+  margin-bottom: 5px;
+
+  color: #333;
+
+}
+
+ 
+
+input[type="text"],
+
+input[type="password"] {
+
+  width: 100%;
+
+  padding: 10px;
+
+  border-radius: 5px;
+
+  border: 1px solid #ccc;
+
+}
+
+ 
+
+.password-wrapper {
+
+  position: relative;
+
+}
+
+ 
+
+.password-toggle {
+
+  position: absolute;
+
+  top: 50%;
+
+  right: 10px;
+
+  transform: translateY(-50%);
+
+  width: 20px;
+
+  height: 20px;
+
+  background-image: url("eye.png");
+
+  background-size: cover;
+
+  cursor: pointer;
+
+  opacity: 0.5;
+
+  transition: opacity 0.3s ease;
+
+}
+
+ 
+
+.password-toggle:hover {
+
+  opacity: 1;
+
+}
+
+ 
+
+.form-group .row {
+
+  display: flex;
+
+  align-items: center;
+
+}
+
+ 
+
+.col {
+
+  flex: 1;
+
+}
+
+ 
+
+.text-right {
+
+  text-align: right;
+
+}
+
+ 
+
+.forgot-password {
+
+  color: #555;
+
+  text-decoration: none;
+
+  font-size: 14px;
+
+  transition: color 0.3s ease;
+
+}
+
+ 
+
+.forgot-password:hover {
+
+  color: #888;
+
+}
+
+ 
+
+button {
+
+  width: 100%;
+
+  padding: 10px;
+
+  background-color: #4CAF50;
+
+  color: white;
+
+  border: none;
+
+  border-radius: 5px;
+
+  cursor: pointer;
+
+}
+
+ 
+
